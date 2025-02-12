@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-box">得分: <span id="score">0</span></div>
+        <div id="board" class="grid-container"></div>
+        <div class="controls">
+            <button onclick="move('up')">↑</button>
+            <button onclick="move('left')">←</button>
+            <button onclick="move('right')">→</button>
+            <button onclick="move('down')">↓</button>
+        </div>
+        <a href="../index.html" class="home-button">返回主页</a>
+    </div>
+    <script src="../js/2048.js"></script>
+</body>
+</html>
